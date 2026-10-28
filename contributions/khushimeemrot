@@ -1,0 +1,34 @@
+# <Your name>: my first Phlex workflow
+
+<!-- Replace everything in angle brackets. Delete these comments when you're done. -->
+
+**Who I am:** <I am khushi meemrot, I am from university of delhi>
+
+## What this does
+Runs the C__ example workflow on 20 spills and writes only the `sum` product with FORM.
+
+
+## How to run it
+
+From your build directory:
+
+```bash
+phlex -c ../dune-tech-phlex-sandbox/contributions/khushimeemrot/my-workflow.jsonnet --stage khushimeemrot
+```
+
+## What you should see
+
+  job
+   │ 
+   └ spill: 20
+
+[2026-10-27 12:08:11.157] [info] CPU time: 0.47285s  Real time: 4.77209s  CPU efficiency:   9.91%
+[2026-10-27 12:08:11.157] [info] Max. RSS: 300.032 MB
+
+## One thing I learned today
+
+ a git command, a Phlex word, a mistake you made and fixed
+
+## One word for today
+
+AMAZING!!
